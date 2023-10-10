@@ -39,3 +39,25 @@ O código não fecha a conexão com o banco de dados. Isso pode levar a problema
 de desempenho e segurança, uma vez que muitos sistemas de gerenciamento de banco 
 de dados possuem limites de conexão. É fundamental incluir uma instrução de
 fechamento da conexão após o uso para liberar recursos e evitar vazamentos de conexão.
+
+
+# ETAPA 2 - TESTE CAIXA BRANCA
+
+Utilizando a imagem do link https://github.com/gabi-gimenez/teste-e-qualidade-de-software/blob/master/teste_caixa_branca_etapa2.jpeg  como base para o exercício, calculei a complexidade ciclomática, sabendo que:
+
+Calculo complexidade ciclomática
+
+Cal = (Numero de arestas - numero de nós + 2)
+
+Aplicando no fluxo de grafo da imagem:
+
+calculo_complexidade_ciclomatica = 10 - 11 + 2 
+
+calculo_complexidade_ciclomatica = 1
+
+Calculando o caminho independente:
+
+Caminho independente 
+
+1. {1,2,4,5,6,7,8,9,11}
+
